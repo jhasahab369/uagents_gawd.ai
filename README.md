@@ -48,7 +48,7 @@ This project provides a chat agent with dialogue management capabilities using p
 3. **Dependencies**: Install the required packages by running the command below in your project directory.
 
    ```bash
-   pip install -r requirements.txt
+   pip install <requirements>
 ⚙️ Setup
 1. Environment Variables
 Set your Groq API key and mailbox key as environment variables or directly within agents.py:
@@ -77,9 +77,9 @@ Users are prompted to choose one of these models at the start of the session.
 ▶️ Running the Agent
 To start the agent and enable the chit-chat dialogue flow, run:
 
-bash
-Copy code
+```
 python agents.py
+```
 The agent's address will be displayed, confirming the agent is running.
 
 
